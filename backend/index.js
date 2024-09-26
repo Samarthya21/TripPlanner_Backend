@@ -4,7 +4,7 @@ const user_model = require('./schema.js');
 const loginroute = require('./components/loginroute.js');
 const signuproute = require('./components/signuproute.js');
 const saveTrip = require('./components/saveTrip.js');
-const myTrips = require('./components/MyTrips.js');
+const myTrips = require('./components/myTrips.js');
 
 const app = express();
 const port = 8000;
